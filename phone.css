@@ -1,0 +1,36 @@
+.tabs
+{
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	transition: 0.3s;
+	background-color: #d6ebf2;
+}
+
+.tabs:hover
+{
+	background-color: pink;
+	color: white;
+}
+
+.dialerButtons, .addContactButtons
+{
+	padding: 10 20 10 20px;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+#dialClear, #contactClear
+{
+	background-color:#ff8080;
+}
+
+#dial, #addContact
+{
+	background-color: #66ffc2;
+}
+
+td
+{
+	padding: 3px 10px 3px 10px;
+	border-bottom: 1px solid gainsboro;
+}

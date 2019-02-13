@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>:)
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="phone.css">
+</head>
+<body>
+	<div id="tabBar">
+		<button class="tabs" id="tabOne">Dialer</button>
+		<button class="tabs" id="tabTwo">Contact List</button>
+		<button class="tabs" id="tabThree">Add Contact</button>
+	</div>
+
+	<div id="tabContent">
+		<div id="contentDialer">
+			<h2>Dialer</h2>
+
+			<form>
+				<label for="numDisplay"></label>
+				<input type="text" name="numDisplay" placeholder="123" disabled>
+			</form>			
+
+			<div id="keyPad">
+				<button class="dialerButtons" id="one">1</button>
+				<button class="dialerButtons" id="two">2</button>
+				<button class="dialerButtons" id="three">3</button>
+				<br>
+				<button class="dialerButtons" id="four">4</button>
+				<button class="dialerButtons" id="five">5</button>
+				<button class="dialerButtons" id="six">6</button>
+				<br>
+				<button class="dialerButtons" id="seven">7</button>
+				<button class="dialerButtons" id="eight">8</button>
+				<button class="dialerButtons" id="nine">9</button>
+				<br>
+				<button class="dialerButtons" id="star">*</button>
+				<button class="dialerButtons" id="zero">0</button>
+				<button class="dialerButtons" id="pound">#</button>
+				<br>
+				<button class="dialerButtons" id="dial">Dial</button>
+				<button class="dialerButtons" id="dialClear">Clear</button>
+			</div>
+		</div>
+
+
+		<div id="contentList">
+			<h2>Contact List</h2>
+
+			<table>
+				<tr><td>Ash Ketchum</td></tr>
+				<tr><td>Mikayla Pickett</td></tr>
+				<tr><td>Santa Claus</td></tr>
+				<tr><td>Lady</td></tr>
+			</table>
+		</div>
+		<div id="contentAdd">
+			<h2>Add Contact</h2>
+
+			<form>
+				<label for="nameField">Name</label>
+				<input type="text" name="nameField">
+			</form>
+			
+			<form>
+				<label for="phoneNum">Phone Number</label>
+				<input type="text" name="phoneNum">
+			</form>
+
+			<form>
+				<label for="email">Email Address</label>
+				<input type="text" name="email">
+			</form>
+
+			<button class= "addContactButtons" id="addContact">Add Contact</button>
+			<button class= "addContactButtons" id="contactClear">Clear</button>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="phone.js"></script>
+</body>
+</html>

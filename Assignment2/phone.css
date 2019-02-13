@@ -41,7 +41,18 @@ th
 {
 	text-align: left;
 }
-td
+table.pokemonList td
+{
+	padding-right: 200px;
+}
+
+table.shortcutTable td
 {
 	padding-right: 100px;
+}
+
+img
+{
+	height: 50px;
+	width: 50px;
 }

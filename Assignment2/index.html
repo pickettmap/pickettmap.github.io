@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+	<title>:)
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="phone.css">
+</head>
+<body>
+	<div id="tabBar" role="navigation">
+		<button class="tabs" id="tabOne" accesskey="x">Dialer</button>
+		<button class="tabs" id="tabTwo" accesskey="y">Contact List</button>
+		<button class="tabs" id="tabThree" accesskey="z">Add Contact</button>
+		<button class="tabs" id="tabFour" accesskey="h">Help</button>
+	</div>
+
+	<div aria-live=polite> 
+	<div id="tabContent">
+		<div id="contentDialer" role="main">
+			<h2>Dialer</h2>
+
+			<form>
+				<label for="numDisplay" ></label>
+				<input type="text" id="numDisplay" name="numDisplay"  disabled>
+			</form>			
+
+			<div id="keyPad">
+				<button class="dialerButtons" id="one" accesskey="1">1</button>
+				<button class="dialerButtons" id="two" accesskey="2">2</button>
+				<button class="dialerButtons" id="three" accesskey="3">3</button>
+				<br>
+				<button class="dialerButtons" id="four" accesskey="4">4</button>
+				<button class="dialerButtons" id="five" accesskey="5">5</button>
+				<button class="dialerButtons" id="six" accesskey="6">6</button>
+				<br>
+				<button class="dialerButtons" id="seven" accesskey="7">7</button>
+				<button class="dialerButtons" id="eight" accesskey="8">8</button>
+				<button class="dialerButtons" id="nine" accesskey="9">9</button>
+				<br>
+				<button class="dialerButtons" id="star" accesskey=",">*</button>
+				<button class="dialerButtons" id="zero" accesskey="0">0</button>
+				<button class="dialerButtons" id="pound" accesskey=".">#</button>
+				<br>
+				<button class="dialerButtons" id="dial">Dial</button>
+				<button class="dialerButtons" id="dialClear" accesskey="c">Clear</button>
+			</div>
+		</div>
+	</div>
+
+
+		<div id="contentList" role="main">
+			<h2>Contact List</h2>
+
+			<table>
+				<tr><th>Name</th> <th>National Dex Number</th>
+				<tr><td>Bulbasaur</td><td>001</td></tr>
+				<tr><td>Charmander</td><td>004</td></tr>
+				<tr><td>Squirtle</td><td>007</td></tr>
+				<tr><td>Pikachu</td><td>025</td></tr>
+			</table>
+		</div>
+		<div id="contentAdd" role="main">
+			<h2>Add Contact</h2>
+
+			<form>
+				<label for="nameField">Name</label>
+				<input type="text" name="nameField">
+			</form>
+			
+			<form>
+				<label for="phoneNum">Phone Number</label>
+				<input type="text" name="phoneNum">
+			</form>
+
+			<form>
+				<label for="email">Email Address</label>
+				<input type="text" name="email">
+			</form>
+
+			<button class= "addContactButtons" id="addContact">Add Contact</button>
+			<button class= "addContactButtons" id="contactClear">Clear</button>
+		</div>
+		<div id= "helpTab" role="main">
+			<h2>Help</h2>
+
+			<table id=shortcutTable>
+				<tr>
+					<th>Shortcut</th> <th>Function</th>
+				</tr>
+				<ul>
+					<li>Tab Navigatable</li>
+					<li>Keyboard Shortcut Accessible</li>
+				</ul>
+				<br>
+				<tr> <td>x</td> <td>Dialer</td></tr>
+				<tr> <td>y</td> <td>Contact List</td></tr>
+				<tr> <td>z</td> <td>Add Contact</td></tr>
+				<tr> <td>h</td> <td>Help</td></tr>
+				<tr> <td>1</td> <td>1</td></tr>
+				<tr> <td>2</td> <td>2</td></tr>
+				<tr> <td>3</td> <td>3</td></tr>
+				<tr> <td>4</td> <td>4</td></tr>
+				<tr> <td>5</td> <td>5</td></tr>
+				<tr> <td>6</td> <td>6</td></tr>
+				<tr> <td>7</td> <td>7</td></tr>
+				<tr> <td>8</td> <td>8</td></tr>
+				<tr> <td>9</td> <td>9</td></tr>
+				<tr> <td>0</td> <td>0</td></tr>
+				<tr> <td>,</td> <td>*</td></tr>
+				<tr> <td>.</td> <td>#</td></tr>
+				<tr> <td>c</td> <td>Clear</td></tr>
+				
+				
+			</table>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="phone.js"></script>
+</body>
+</html>

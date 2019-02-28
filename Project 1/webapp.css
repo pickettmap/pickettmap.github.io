@@ -1,0 +1,67 @@
+#keyPad
+{
+	width: 50%;
+	border-right: 1px solid gainsboro;
+}
+
+#distanceDisplay
+{
+	text-align: center;
+	align-items: center;
+	width: 50%;
+	float: right;
+}
+
+.textBox
+{
+	border-radius: 5px;
+	font-size: x-large;
+	background:none;
+	box-shadow: none;
+}
+
+.dialerButtons
+{
+	width: 30%;
+	height: 130px;
+	font-size: x-large;
+	background:lightgrey;
+	border: 1px solid black;
+	box-shadow: 1px 2px grey;
+}
+
+@media (max-width: 600px)
+{
+	.dialerButtons
+	{
+		height: 50px;
+		font-size: small;	}
+
+	.textBox
+	{
+		font-size: small;
+	}
+
+	#keyPad
+	{
+		display: block !important;
+		float: none;
+		border-right: none;
+		border-top: 1px solid gainsboro;
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	#distanceDisplay
+	{
+		display: block !important; 
+		margin-bottom: 20px;
+		float: none;
+		width: 100%;
+	}
+
+	h1
+	{
+		text-align: center;
+	}
+}

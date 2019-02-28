@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="webapp.css">
+</head>
+<body>
+  <h1>Distance Converter</h1>
+
+  <div id="distanceDisplay">
+    <form><input type="text" class="textBox" id="distanceInput" disabled> mi</form>
+    <p>to</p>
+    <form><input type="text" class="textBox" id="distanceOutput"> km</form>
+  </div>
+
+  <div id="keyPad">
+    <button class="dialerButtons" id="keyPadButton" accesskey="1">1</button>
+    <button class="dialerButtons" id="keyPadButton" accesskey="2">2</button>
+    <button class="dialerButtons" id="keyPadButton" accesskey="3">3</button>
+    
+    <button class="dialerButtons" id="keyPadButton" accesskey="4">4</button>
+    <button class="dialerButtons" id="keyPadButton" accesskey="5">5</button>
+    <button class="dialerButtons" id="keyPadButton" accesskey="6">6</button>
+    
+    <button class="dialerButtons" id="keyPadButton" accesskey="7">7</button>
+    <button class="dialerButtons" id="keyPadButton" accesskey="8">8</button>
+    <button class="dialerButtons" id="keyPadButton" accesskey="9">9</button>
+    
+    <button class="dialerButtons" id="keyPadButton" accesskey=".">.</button>
+    <button class="dialerButtons" id="keyPadButton" accesskey="0">0</button>
+    <button class="dialerButtons" id="delete" accesskey="d">Clear</button>
+  </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="webapp.js"></script>
+</body>
+</html>
